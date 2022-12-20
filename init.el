@@ -92,6 +92,9 @@
 ;; disables backup files (ends in ~). This is different from the autosave files (contains #) that gets auto deleted
 (setq make-backup-files nil)
 
+;; changes default buffer organizer to ibuffer
+(global-set-key (kbd "C-x C-b") 'ibuffer)
+
 ;;;;;;;;;;;;;;;;;;;;;;;;
 ;; M-x compile changes;;
 ;;;;;;;;;;;;;;;;;;;;;;;;
